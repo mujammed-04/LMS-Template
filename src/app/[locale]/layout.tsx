@@ -39,7 +39,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="light">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
